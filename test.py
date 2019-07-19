@@ -30,9 +30,9 @@ from sklearn.feature_extraction.text import TfidfVectorizer
 vectorizer=joblib.load("tr4bfvec.pkl")
 selector=joblib.load("tr4bfsel.pkl")
 print("Hello,I am intended to talk to you and to solve your difficulties.You could ask me anything and I'll try to solve your problems.Could you please tell your name?")
-with open('newtree.txt','rb') as fp:
-       list=pickle.load(fp)
-curr=list
+# with open('newtree.txt','rb') as fp:
+#        list=pickle.load(fp)
+# curr=list
 raw_input()
 print('Where do you come from ?')
 raw_input()
